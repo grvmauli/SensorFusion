@@ -1,0 +1,10 @@
+build/
+*.pcd
+*.bin
+*.exe
+*.out
+CMakeFiles/
+CMakeCache.txt
+*.user
+*.log
+*.png
