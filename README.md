@@ -16,4 +16,27 @@ This project implements a basic sensor fusion pipeline using camera, LiDAR, and 
 mkdir build
 cd build
 cmake ..
+
+./sensor_fusion
+📁 Directory Structure
+main.cpp: Entry point for visualization and data loading
+
+include/fusion.hpp / src/fusion.cpp: Fusion logic
+
+scripts/velodyne_bin_to_pcd.py: Convert KITTI LiDAR .bin to .pcd
+
+scripts/extract_imu.py: Extract IMU readings from KITTI oxts folder
+
+data/: Folder for sample images, .pcd files, and IMU text
+
+📚 Requirements
+C++17
+
+PCL
+
+OpenCV
+
+Eigen
+
+Python 3 (for data conversion scripts)
 make
